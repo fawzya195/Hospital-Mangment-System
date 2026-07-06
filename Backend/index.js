@@ -8,9 +8,9 @@ import swaggerSpec from "./swagger.js";
 import connectDB from "./config/mongodb.js";
 import connectCloudinary from "./config/cloudinary.js";
 
-import userRouter from "./routes/userRoute.js";
-import doctorRouter from "./routes/doctorRoute.js";
-import adminRouter from "./routes/adminRoute.js";
+import userRouter from "./Routes/userRoute.js";
+import doctorRouter from "./Routes/doctorRoute.js";
+import adminRouter from "./Routes/adminRoute.js";
 
 const app = express();
 const port = process.env.PORT || 4000;

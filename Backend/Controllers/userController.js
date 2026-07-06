@@ -3,9 +3,9 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import { v2 as cloudinary } from "cloudinary";
 
-import userModel from "../models/userModel.js";
-import doctorModel from "../models/doctorModel.js";
-import appointmentModel from "../models/appointmentModel.js";
+import userModel from "../Models/userModel.js";
+import doctorModel from "../Models/doctorModel.js";
+import appointmentModel from "../Models/appointmentModel.js";
 
 // تسجيل مريض جديد
 const registerUser = async (req, res) => {
