@@ -9,7 +9,7 @@ import {
   doctorProfile,
   updateDoctorProfile,
 } from "../Controllers/doctorController.js";
-import authDoctor from "../Middlewares/authDoctor.js";
+import authDoctor from "../middlewares/authDoctor.js";
 
 const doctorRouter = express.Router();
 

@@ -7,8 +7,8 @@ import {
   appointmentCancel,
   adminDashboard,
 } from "../Controllers/adminController.js";
-import authAdmin from "../Middlewares/authAdmin.js";
-import upload from "../Middlewares/multer.js";
+import authAdmin from "../middlewares/authAdmin.js";
+import upload from "../middlewares/multer.js";
 import { changeAvailability } from "../Controllers/doctorController.js";
 
 const adminRouter = express.Router();

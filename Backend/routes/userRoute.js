@@ -8,8 +8,8 @@ import {
   listAppointment,
   cancelAppointment,
 } from "../Controllers/userController.js";
-import authUser from "../Middlewares/authUser.js";
-import upload from "../Middlewares/multer.js";
+import authUser from "../middlewares/authUser.js";
+import upload from "../middlewares/multer.js";
 
 const userRouter = express.Router();
 
