@@ -11,6 +11,10 @@ const options = {
     },
     servers: [
       {
+        url: "https://hospital-mangment-system-production.up.railway.app",
+        description: "Production server",
+      },
+      {
         url: "http://localhost:4000",
         description: "Local development server",
       },
