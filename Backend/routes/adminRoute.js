@@ -6,10 +6,10 @@ import {
   appointmentsAdmin,
   appointmentCancel,
   adminDashboard,
-} from "../controllers/adminController.js";
+} from "../Controllers/adminController.js";
 import authAdmin from "../middlewares/authAdmin.js";
 import upload from "../middlewares/multer.js";
-import { changeAvailability } from "../controllers/doctorController.js";
+import { changeAvailability } from "../Controllers/doctorController.js";
 
 const adminRouter = express.Router();
 
